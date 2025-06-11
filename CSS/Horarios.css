@@ -1,0 +1,221 @@
+
+    .montserrat-uniquifier {
+        font-family: "Montserrat", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: weight;
+        font-style: normal;
+    }
+    
+    .inter-uniquifier {
+            font-family: "Inter", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: weight;
+            font-style: normal;
+    }
+
+    .cal-sans-regular {
+            font-family: "Cal Sans", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+    }
+
+    body {
+        margin: 0;
+        font-family: "Cal Sans", sans-serif;
+        letter-spacing: 0.5px;
+        background-color: #d3d3d3;
+    }
+
+header {
+        background-color: black;
+        color: white;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 12px 24px;
+    }
+
+    .logo img {
+        width: 120px;
+    }
+
+
+    nav a:hover {
+        color: #c00c06;
+    }
+
+    .contenido {
+        max-width: 900px;
+        margin: 40px auto;
+        background-color: white;
+        border-radius: 16px;
+        padding: 30px;
+        box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+    }
+
+    h1 {
+        text-align: center;
+        color: #c00c06;
+        margin-bottom: 40px;
+    }
+
+    h2 {
+        text-align: center;
+        color: #000000;
+        margin-bottom: 10px;
+    }
+
+    p {
+        font-size: 18px;
+        line-height: 1.6;
+        text-align: justify;
+        margin-bottom: 30px;
+    }
+
+    header {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 24px;
+    height: 70px;
+}
+
+h2.eslogan {
+    font-size: 40px;
+    color: #62832a;
+    transform: translateY(-15px);
+}
+
+.logo {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+img.logotipo {
+    width: 150px;
+}
+
+/* --- Navegación --- */
+nav {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+nav a {
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    text-decoration: none;
+    font-size: 23px;
+    position: relative;
+    margin-left: 50px;
+}
+
+nav a:hover {
+    color: #c00c06;
+}
+
+
+/* --- Menú desplegable --- */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 180px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    top: 100%;
+    left: 0;
+    border-radius: 10px;
+    padding: 10px 0;
+    text-align: center;
+    list-style: none;
+}
+
+.dropdown-content.show {
+    display: block;
+}
+
+/* --- Estilos de opciones desplegables --- */
+.dropdown-content li {
+    margin: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    transition: background-color 0.2s ease;
+}
+
+.dropdown-content a {
+    display: block;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    font-size: 18px;
+    transform: translateX(-20px);
+}
+
+.dropdown-content li:hover {
+    background-color: #f1f1f1;
+}
+    
+    /* Contenedor de la tabla */
+.horario-container {
+    max-width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 16px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+    overflow-x: auto;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Tabla en sí */
+.horario-table {
+    width: 100%;
+    border-collapse: collapse;
+    border-radius: 16px;
+    overflow: hidden;
+}
+
+/* Cabecera */
+.horario-table thead {
+    background-color: #000;
+    color: white;
+    font-size: 22px;
+}
+
+.horario-table thead th {
+    padding: 15px;
+}
+
+/* Celdas */
+.horario-table td, .horario-table th {
+    padding: 14px;
+    text-align: center;
+    font-size: 18px;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Última fila sin borde */
+.horario-table tr:last-child td {
+    border-bottom: none;
+}
+
+/* Hover en filas */
+.horario-table tbody tr:hover {
+    background-color: #f7f7f7;
+    transition: background-color 0.3s ease;
+}
+
+/* Día destacado (ej: domingo) */
+.horario-table tbody tr:first-child {
+    font-weight: bold;
+    color: #c00c06;
+}
