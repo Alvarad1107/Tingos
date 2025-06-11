@@ -1,0 +1,239 @@
+    .montserrat-uniquifier {
+        font-family: "Montserrat", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: weight;
+        font-style: normal;
+    }
+    
+    .inter-uniquifier {
+        font-family: "Inter", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: weight;
+        font-style: normal;
+    }
+
+    .cal-sans-regular {
+        font-family: "Cal Sans", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+
+    body {
+        margin: 0;
+        font-family: "Cal Sans", sans-serif;
+        letter-spacing: 0.5px;
+        background-color: #d3d3d3;
+    }
+
+    .container {
+        width: 50%;
+        margin: auto;
+        background-color: #fff;
+        padding: 30px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        border-radius: 8px;
+        margin-top: 50px;
+        font-family: "Cal Sans", sans-serif;
+    }
+
+    h2 {
+        text-align: center;
+        color: #333;
+        font-family: "Inter";
+        font-family: "Cal Sans", sans-serif;
+        font-size: 40px;
+    }
+
+    h2.eslogan {
+        font-size: 40px;
+        color: #62832a;
+    }
+
+    hr {
+        height: 1px;
+    }
+
+    label {
+        margin-bottom: 10px;
+        color: #333;
+        font-family: "Cal Sans", sans-serif;
+    }
+
+    input {
+        padding: 10px;
+        margin-bottom: 20px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        width: 100%;
+        font-family: "Cal Sans", sans-serif;
+    }
+
+    select {
+        padding: 10px;
+        margin-bottom: 20px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        width: 103%;
+        font-family: "Cal Sans", sans-serif;
+    }
+
+    button {
+        padding: 10px;
+        background-color: #bb2222;
+        color: #fff;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        font-size: 16px;
+        font-family: "Cal Sans", sans-serif;
+        }
+
+    button:hover {
+        background-color: #880000;
+    }
+
+    header {
+        background-color: #000000;
+        color: white;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 12px 24px;
+        height: 70px;
+    }
+
+        img.logotipo{
+            width: 150px;
+        }
+
+        nav {
+    display: flex;
+    align-items: center;
+    gap: 15px; /* Puedes ajustar este valor */
+}
+
+
+        nav a {
+        font-family: "Montserrat";
+        color: white;
+        text-decoration: none;
+        margin-left: 50px;
+        font-size: 22px;
+        
+    }
+
+    nav a:hover {
+        color: #c00c06;
+    }
+
+.product-container {
+    display: flex;
+    flex-wrap: wrap; /* Permite que los elementos pasen a una nueva línea si no caben */
+    justify-content: center; /* Centra los elementos en la página */
+    gap: 20px; /* Espacio entre los elementos */
+}
+
+.product-card {
+    width: 250px;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    padding: 15px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.product-card:hover {
+    transform: scale(1.05);
+}
+
+.product-card img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.product-card h3 {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.product-card p {
+    font-size: 16px;
+    color: #555;
+}
+
+div.product-card {
+    margin: 40px;
+}
+
+.price {
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(192, 12, 6);
+}
+
+.label-new {
+    display: inline-block;
+    background: #ffcc00;
+    color: #000;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.label-hot {
+    display: inline-block;
+    background: #c00c06;
+    color: #ffffff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+/* --- Menú desplegable --- */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 180px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    top: 100%;
+    left: 0;
+    border-radius: 10px;
+    padding: 10px 0;
+    text-align: center;
+    list-style: none;
+}
+
+.dropdown-content.show {
+    display: block;
+}
+
+/* --- Estilos de opciones desplegables --- */
+.dropdown-content li {
+    margin: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    transition: background-color 0.2s ease;
+}
+
+.dropdown-content a {
+    display: block;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    font-size: 18px;
+    transform: translateX(-20px);
+}
+
+.dropdown-content li:hover {
+    background-color: #f1f1f1;
+}
